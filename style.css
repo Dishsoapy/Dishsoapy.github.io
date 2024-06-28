@@ -1,3 +1,26 @@
+body {
+    font-family: sans-serif;
+    color: grey;
+    text-align: center;
+}
+
+h1{
+    color: ghostwhite;
+}
+
+h2{
+    color: green;
+}
+
+h3{
+    color:limegreen;
+}
+
+h4{
+    color:aqua;
+}
+
+/* Start of Flex styles*/
 .container {
     display: flex;
 }
