@@ -1,70 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-        <link rel = "stylesheet" type="text/css" href="style.css"> 
-    </head>
-        <main> 
-            <section>
-            <!-- Header 1: Introduction, may change later -->
-            <h1>Dishsoap.me</h1>
-                <p>This page will double as my portfolio as well as my personal
-                <br>blogpost where I'll document progress as I learn new 
-                <br>skills anything that may or may not be related to software
-                <br>and tech. Given my current schedule, updates will be sporadic
-                <br>but I'll do my best to keep up with it.</p>
-            </section>
-            
-            <!-- Header 2: Study list -->
-            <section>
-                <h2>Currently Studying</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>javascript</li>
-                    <li>SQL</li>
-                    <li>220-1101 for CompTIA A+ Certification</li>
-                </ul>
+<html lang="en">
+<head> 
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <title>Dishsoap.me</title>
+</head>
+<body>
+    <header>
+        <h1 class="Site_Title">Dishsoap.me</h1>
+    </header>
+        <div class="Navigation_List">
+            <aside class="To_Class">
+                <ol class="No_Bullet_Points Arial_Bolded_Text">
+                    <li><a href="Section_About">About Me</a></li>
+                    <li><a href="Section_Projects">Projects</a></li>
+                    <li><a href="Secetion_Updates">Updates</a></li>
+                </ol>
+            </aside>
+        </div>
+    <main>
+        <!-- Start of About me Section -->
+        <section class= "About_Me">
+            <h2 class="Section_Headings About_Me_Heading" id="Section_About">About me</h2>
+            <p>My name is Jaq Alexandre Joshua Ortiz.</p>
+            <p>I graduated from the University of Las Vegas with my B.S. in Computer Science as of May 2023.
+                <br>I am an aspiring software engineer whose eager to learn and try new things.
+            </p>
+            <h2 class="Section_Headings">Techincal Skills</h2>
+        </section>
+        <!-- End of About Me Section -->
 
-                <!-- Header 3: Technical skills -->
+        <!-- Start of Project Section -->
+        <section class="Projects">
+            <h2 class="Section_Headings Projects_Heading" id ="Section_Projects">Projects</h2>
+            <p>In Progress</p>
+        </section>
+        <!-- End of Project Section -->
 
-                <h3>Website and Technical Skills</h3>
-                    <b>4.7.24</b>
-                    <p>
-                    Incorporated inline style attributes.<br>
-                    Not the best way to incorporate design but I <br>
-                    felt it's still important to learn and that<br>
-                    it will have it's uses in the future.<br>
-                    <p>
-                        An example of span style:
-                    </p>
-                    <ul>
-                        <li>This is the color <span style="color: red;">red</span>.</li>
-                        <li>This is the color <span style="color: blue">blue</span>.</li>
-                        <li>This is the color <span style="color: green;">green</span>.</li>
-                        <li>These words have a <span style="font-size: large;">large font size</span>.</li>
+        <!-- Start of Updates Section -->
+        <section class= "Updates_section">
+            <h2 class="Section_Headings Website_Heading" id = "Section_Updates">Website Updates</h2>
+            <ol class="No_Bullet_Points Website_Updates">
+                <li">4.7.24</li>
+                    <ul class="Website_Updates_Desciption">
+                        <li>Created and uploaded generic HTML index file</li>
+                        <li>Obtained and linked custom domain name to Github pages</li>
                     </ul>
-                <br>
-                    <b>6.27.24</b>
-                    <p>
-                        Created an external CSS file to house most of<br>
-                        my current and future style edits moving forward.<br>
-                    </p>
-                </section>
-
-                <!-- Need to figure out how this will go on a sepeate page -->
-                <!-- Header 4: Personal Life updates -->
-               <!-- <section>
-                <h4>Personal Life</h4>
-                    <b class="text-muted">6.27.24</b>
-                    <p class="text-muted"> I've resumed regularly going to the gym again after<br>
-                        a year of incononsistency. I'm down from 200lbs to 195lbs.<br>
-                        Currently working on trying to optomize my routine and diet<br>
-                        so that my fitness journey isn't time consuming and dreadful.<br>
-                        3-4 days a week and meal prepping frozen dinners Sunday/Monday<br>
-                        nights have been pleasent so far but I still have plenty of<br>
-                        experimentation to do.
-                    </p>-->
-            </section>
-        </main>
-    </body>
+                    <br>
+                <li>6.28.24</li>
+                    <ul class="Website_Updates_Desciption">
+                        <li>Created CSS file for basic HTML styling</li>
+                        <li>Did an overhaul on the HTML index file for better readability (WIP)</li>
+                    </ul>
+                    <br>
+                <li>6.29.24</li>
+                    <ul class="Website_Updates_Desciption">
+                        <li>Did another overhaul to the HTML index file for better readability</li>
+                        <li>Added links to socials</li>
+                        <li>Added a table of contents section (WIP)</li>
+                        <li>Updated CSS file and added flexbox (WIP)</li>
+                    </ul>
+            </ol>
+        </section>
+        <!-- End of Updates Section -->
+    </main>
+    <!-- Included images at the bottom the page that links to my socials -->
+    <footer>        
+        <nav class="links">
+            <a href="https://github.com/Dishsoapy"><img class="Pic Github_Pic" src="https://Dishsoapy.github.io/Github_img.png" alt="github.com/Dishsoapy"></a>
+            <a href="https://www.linkedin.com/in/jaqortiz/"><img class="Pic LinkedIn_Pic" src="https://Dishsoapy.github.io//LinkedIn_Img.png" alt="linkedin.com/in/jaqortiz"></a>
+            <a href="mailto: jaqalexandrejoshO@gmail.com"><img class="Pic Email_Pic" src="https://Dishsoapy.github.io//Email_img.png" alt="jaqalexandrejoshO@gmail.com"></a>
+        </nav>
+    </footer>
+</body>
 </html>
