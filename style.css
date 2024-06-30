@@ -1,6 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-image: url("https://Dishsoapy.github.io/8-bitJPBG.png");
+    background-size: auto;
     background-repeat: no-repeat;
     width: 100%;
     height: 400px;
