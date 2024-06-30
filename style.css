@@ -1,21 +1,41 @@
+html{
+    height: 100%;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     background-image: url("https://Dishsoapy.github.io/8-bitJPBG.png");
-    background-size: auto;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
     background-size: cover;
     color: black;
     text-align: center;
+    min-height: 100%;
+    height: 100%;
 }
+
 
 h1.Site_Title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    text-align: left;
+    text-align: center;
     color: #e38dca;
     text-shadow: 1px 1px 2px black;
+    height: 100%;
+}
+
+section.About_Me{
+    height: 100%;
+    padding-top: 20px;
+}
+
+section.Projects{
+    height: 100%;
+    padding-top: 20px;
+}
+
+section.Updates{
+    height: 100%;
+    padding-top: 20px;
 }
 
 /*Remove bullet points from any ordered lists*/
