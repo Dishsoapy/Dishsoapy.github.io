@@ -2,6 +2,8 @@ html{
     height: 100%;
     position: center absolute;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 body {
