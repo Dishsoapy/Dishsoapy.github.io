@@ -11,29 +11,35 @@
 <body>
     <!-- Snippet for the landing section -->
     <header>
-        <div class="Landing_Page_Container">
-            <a href ="https://dishsoap.me" style="color: #efb8cc; text-decoration: none;"> Dishsoap.me </a>
-            <ol class="No_Bullet_Points Anchor_List">
-                <li><a href="#Section_About" style="color: #b803ff; text-decoration: none;">About</a></li>
-                <li><a href="#Section_Projects" style="color: #b803ff; text-decoration: none;">Projects</a></li>
-                <li><a href="#Section_Updates" style="color: #b803ff; text-decoration: none;">Updates</a></li>
-                <li><a href="#Anchor_Footer" style="color: #b803ff; text-decoration: none;">Contact</a></li>
-            </ol>
-        </div>
+        <div class="Top_Navigation">
+            <a class="No_Decoration" href="#Section_Start">Start</a> ||
+            <a class="No_Decoration" href="#Section_About">About</a> ||
+            <a class="No_Decoration" href="#Section_Technical">Technical Skills</a> ||
+            <a class="No_Decoration" href="#Section_Projects">Projects</a> ||
+            <a class="No_Decoration" href="#Footer_Socials">Socials</a>
+        </div>  
     </header>
     <main>
+        <section class= "Webpage_Start" id ="Section_Start">
+            <h1 id ="Section_Start">Dishsoap.me</h1>
+        </section>
+
         <!-- Start of About me Section -->
-        <section class= "About_Me">
+        <section class= "Default_Section_Layout" id="Section_About">
             <div class="About_Me_Container">
-                <h2 class="Section_Headings About_Me_Heading" id="Section_About">About me</h2>
+                <h2 class="Section_Headings About_Me_Heading">About me</h2>
                 <p>My name is Jaq Alexandre Joshua Ortiz.
                     <br>I graduated from the University of Las Vegas with my B.S. in Computer Science as of May 2023.
                     <br>I am an aspiring software engineer whose eager to learn and try new things.</p>
-                    <br>
-                    <br>
-                    <br>
-                <h2 class="Section_Headings">Techincal Skills</h2>
-                <div class="Technical_Skills_Container">
+                <br>
+            </div>
+        </section>
+        <!-- End of About Me Section -->
+
+        <!-- Start of Technical Skills Section-->
+        <section class = "Default_Section_Layout" id="Section_Technical">
+            <div class="Technical_Skills_Container">
+                <h2>Techincal Skills</h2>
                     <ul class="About_To_Left">
                         <li>C</li>
                         <li>C++</li>
@@ -44,8 +50,6 @@
                         <li>Javascript</li>
                         <li>Agile</li>
                     </ul>
-                </div>
-                <div class="Technical_Skills_Container">
                     <ul class="About_To_Right">
                         <li>Unity Game Engine</li>
                         <li>Git</li>
@@ -56,51 +60,23 @@
                         <li>(Studying) SQL</li>
                         <li>(Studying) CompTIA A+ Certification</li>
                     </ul>
-                </div>
             </div>
         </section>
-        <!-- End of About Me Section -->
+        <!-- End of Technical skills Section-->
 
         <!-- Start of Project Section -->
-        <section class="Projects">
+        <section class="Default_Section_Layout" id="Section_Projects">
             <div class="Projects_Container">
-                <h2 class="Section_Headings Projects_Heading" id ="Section_Projects">Projects</h2>
+                <h2>Projects</h2>
                 <p>Coming Soon!</p>
             </div>
         </section>
         <!-- End of Project Section -->
 
-        <!-- Start of Updates Section -->
-        <section class= "Updates">
-            <div class="Updates_Container">
-                <h2 class="Section_Headings Website_Heading" id = "Section_Updates">Website Updates</h2>
-                <ol class="No_Bullet_Points Website_Updates">
-                    <li">4.7.24</li>
-                        <ul class="Website_Updates_Desciption">
-                            <li>Created and uploaded generic HTML index file</li>
-                            <li>Linked custom domain name to Github pages</li>
-                        </ul>
-                        <br>
-                    <li>6.28.24</li>
-                        <ul class="Website_Updates_Desciption">
-                            <li>Created CSS for styling</li>
-                            <li>Did an overhaul on the HTML index file for better readability (WIP)</li>
-                        </ul>
-                        <br>
-                    <li>6.30.24</li>
-                        <ul class="Website_Updates_Desciption">
-                            <li>Added Socials at the bottom of the page</li>
-                            <li>Added functioning table of contents section</li>
-                        </ul>
-                        <br>
-                </ol>
-            </div>
-        </section>
-        <!-- End of Updates Section -->
     </main>
     <!-- Included images at the bottom the page that links to my socials -->
     <footer>
-        <nav class="Footer_Links" id="Anchor_Footer">
+        <nav class="Footer_Links" id="Footer_Socials">
             <a href="https://github.com/Dishsoapy"><img class="Pic Github_Pic" src="https://Dishsoapy.github.io/Github_img.png" alt="github.com/Dishsoapy"></a>
             <a href="https://www.linkedin.com/in/jaqortiz/"><img class="Pic LinkedIn_Pic" src="https://Dishsoapy.github.io//LinkedIn_Img.png" alt="linkedin.com/in/jaqortiz"></a>
             <a href="mailto: jaqalexandrejoshO@gmail.com"><img class="Pic Email_Pic" src="https://Dishsoapy.github.io//Email_img.png" alt="jaqalexandrejoshO@gmail.com"></a>

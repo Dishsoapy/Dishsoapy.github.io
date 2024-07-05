@@ -15,51 +15,71 @@ body {
     height: 100%;
 }
 
-div.Landing_Page_Container{
+header{
+    padding: 0%;
+    position: fixed;
+    top: 0;
+    background-color: #f3f5f4;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+
+div.Top_Navigation{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    text-shadow: 12px 12px 14px grey, 5px 5px 7px #abe3f8;
+}
+
+h1{
     font-family: "Yomogi";
     font-weight: bold;
     font-size: 150px;
     text-align: center;
-    text-shadow: 12px 12px 14px grey, 5px 5px 7px #abe3f8;;
-    background: url("https://Dishsoapy.github.io/8-bitJPBG.png") center center fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 3000px;
-}
-
-ol.Anchor_List{
-    position: relative;
-    top: 20%;
-    font-family: Syncopate;
-    font-weight: bolder;
-    font-size: 30px;
+    color: #efb8cc;
+    text-shadow: 12px 12px 14px grey, 5px 5px 7px #abe3f8;
 }
 
 h2.Section_Headings{
-    font-size: 50px;
+    font-size: 60px;
     font-family: Swanky and Moo Moo;
 }
 
-section.About_Me{
-    position: relative;
-    height: 3000px;
-    margin-top: 5%;
+section.Webpage_Start{
+    padding-top: 20%;
+    padding-bottom: 100%;
+    background: url("https://Dishsoapy.github.io/8-bitJPBG.png") center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.Default_Section_Layout{
+    padding-top: 20%;
+    padding-bottom: 100%;
+}
+
+a.No_Decoration{
+    text-decoration: none;
+    color: #b803ff;
 }
 
 div.Technical_Skills_Container{
-    display: inline-table;
+    display: inline-block;
+    width: 50%;
     margin-left: 40px;
     margin-right: 40px;
 }
 
 ul.About_To_Left{
+    float: left;
     direction: ltr;
     list-style-type:square;
     text-align: left;
 }
 
 ul.About_To_Right{
+    float: right;
     direction: rtl;
     list-style-type:square;
     text-align: right;
@@ -71,20 +91,7 @@ section.Projects{
     margin-top: 5%;
 }
 
-section.Updates{
-    position: relative;
-    height: 1250px;
-    margin-top: 5%;
-}
-
 /*Remove bullet points from any ordered lists*/
-ol.No_Bullet_Points{
-    list-style: none;
-}
-
-ol.Website_Updates{
-    text-align: left;
-}
 
 nav.Footer_Links{
     align-items: center;
@@ -95,7 +102,6 @@ nav.Footer_Links{
 img.Pic{
     padding-top: 10%;
 }
-
 
 /*To position it with the LinkedIn Icon*/
 img.Github_Pic{
