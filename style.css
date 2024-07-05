@@ -27,7 +27,7 @@ section.Webpage_Start{
     background: url("https://Dishsoapy.github.io/8-bitJPBG.png") center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 10%;
+    padding-top: 25%;
     padding-bottom: 100%;
 }
 
@@ -43,7 +43,7 @@ h2.Section_Headings{
 }
 
 section.Default_Section_Layout{
-    padding-top: 20%;
+    padding-top: 5%;
     padding-bottom: 100%;
 }
 
@@ -55,8 +55,6 @@ a.No_Decoration{
 div.Technical_Skills_Container{
     display: inline-table;
     width: 50%;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 ul.About_To_Left{
