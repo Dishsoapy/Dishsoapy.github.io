@@ -57,7 +57,23 @@ div.Technical_Skills_Container{
     width: 50%;
 }
 
+dt.Project_Name{
+    font-size: 40px;
+    color: #ee849b;
+}
+
+dd.Project_Description{
+    font-size: 25px;
+}
+
 ul.About_To_Left{
+    direction: ltr;
+    float: left;
+    list-style-type:square;
+    text-align: left;
+}
+
+ul.Projects_Left{
     direction: ltr;
     float: left;
     list-style-type:square;
