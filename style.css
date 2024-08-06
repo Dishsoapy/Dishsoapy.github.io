@@ -95,6 +95,13 @@ nav.Footer_Links{
     position: relative;
 }
 
+img.Project_Pic_1{
+    position: absolute;
+    left:0px;
+    width: 10px;
+    padding: 10px;;
+
+}
 
 img.Pic{
     padding-top: 10%;
