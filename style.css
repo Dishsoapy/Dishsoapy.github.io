@@ -60,6 +60,7 @@ div.Technical_Skills_Container{
 dt.Project_Name{
     font-size: 40px;
     color: #ee849b;
+    text-align: center;
 }
 
 dd.Project_Description{
@@ -71,13 +72,7 @@ ul.About_To_Left{
     float: left;
     list-style-type:square;
     text-align: left;
-}
-
-ul.Projects_Left{
-    direction: ltr;
-    float: left;
-    list-style-type:square;
-    text-align: left;
+    width: 30%;
 }
 
 ul.About_To_Right{
@@ -85,6 +80,7 @@ ul.About_To_Right{
     float: right;
     list-style-type:square;
     text-align: right;
+    width: 30%;
 }
 
 
@@ -93,14 +89,6 @@ ul.About_To_Right{
 nav.Footer_Links{
     align-items: center;
     position: relative;
-}
-
-img.Project_Pic_1{
-    position: absolute;
-    left:0px;
-    width: 10px;
-    padding: 10px;;
-
 }
 
 img.Pic{
